@@ -21,3 +21,15 @@ WHERE MOVIE_NAME IN ('Toy Story', 'Lion King');
 
 SELECT tag
 FROM tags WHERE TAG like 'Leonardo DiCaprio';
+
+SELECT *
+FROM MOVIES
+WHERE genres like '%Action%';
+
+
+
+
+
+
+
+
